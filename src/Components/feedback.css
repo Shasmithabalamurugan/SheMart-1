@@ -1,0 +1,90 @@
+.enhanced-feedback-form-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+  }
+  
+  .enhanced-feedback-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .enhanced-feedback-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .rating-section,
+  .category-section,
+  .feedback-section {
+    margin-bottom: 20px;
+  }
+  
+  .rating-section p,
+  .category-section p,
+  .feedback-section p {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .rating-icons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .rating-icon {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .rating-icon.selected {
+    font-size: 30px;
+  }
+  
+  .category-buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .category-button {
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .category-button.selected {
+    background-color: #90caf9;
+  }
+  
+  .feedback-section textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100px;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    align-self: center;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  

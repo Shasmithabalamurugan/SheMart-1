@@ -1,0 +1,96 @@
+/* General styles for the homepage */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Styles for the carousel */
+.carousel {
+  position: relative;
+  width: 100%;
+}
+
+.carousel-inner {
+  width: 100%;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-item img {
+  height: 630px;
+  width: 64%; /* Adjust the image width as needed */
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: white;
+  padding: 40px;
+  
+  width: 36%; /* Adjust the content width as needed */
+  box-sizing: border-box;
+  height:630px;
+  /* Include padding in width calculation */
+}
+
+
+  .c1 {
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0 0 10px;
+  
+  
+}
+  .c2 {
+    font-size: 45px;
+    font-weight: 600;
+   margin-top: -5px;
+  
+  
+}
+
+.para{
+ 
+  font-size: 25px;
+    font-weight: 400;
+    margin-top: 18px;
+    margin-left: 6px;
+}
+.para1{
+ 
+  font-size: 25px;
+    font-weight: 400;
+    margin-top: 1px;
+    margin-left: 6px;
+}
+
+.SHOPNOW {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 250;
+  cursor: pointer;
+}
+.image2{
+  display: block;
+}

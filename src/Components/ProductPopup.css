@@ -1,0 +1,94 @@
+/* Popup overlay styling */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Darker background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  /* Popup content styling */
+  .popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%; /* Responsive width */
+    max-width: 800px; /* Maximum width for larger screens */
+    height: auto;
+    max-height: 80vh; /* Maximum height */
+    overflow-y: auto; /* Scroll if content exceeds height */
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow for better visibility */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Close button styling */
+  .popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  /* Popup container for image and details */
+  .popup-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* Space between image and content */
+  }
+  
+  /* Product image styling */
+  .popup-image {
+    width: 40%; /* Image takes 40% of the container width */
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Popup details styling */
+  .popup-details {
+    width: 60%; /* Content takes 60% of the container width */
+  }
+  
+  .popup-details h2 {
+    margin: 0 0 10px;
+  }
+  
+  .popup-details p {
+    margin: 8px 0;
+  }
+  
+  .popup-quantity {
+    margin: 10px 0;
+  }
+  
+  .quantity-input {
+    width: 60px;
+    margin-left: 10px;
+  }
+  
+  .add-to-cart-btn {
+    background-color: #007bff; /* Blue color for the button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  

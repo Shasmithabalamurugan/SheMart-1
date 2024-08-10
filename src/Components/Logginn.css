@@ -1,0 +1,144 @@
+.contentt{
+    
+    color:white;
+    font-size: 18px;
+    padding-left:340px;
+    position: fixed;
+    margin-top:-445px;
+    margin-left: -3px;
+ }
+ .content2{
+     margin-top:-10px;
+     color:white;
+     font-size: 18px;
+     padding-left:340px;
+     position: fixed;
+     margin-top:-420px;
+     margin-left: -3px;
+  }
+ .image{
+     height:580px;
+     width:390px;
+     margin-left:300px;
+     margin-top:30px;
+     
+ }
+ .fulll{
+     align-content: center;
+    
+ }
+ .image2{
+     width:100px;
+     margin-left: 210px;
+     margin-top: 40px;
+ }
+ .shalf{
+     height:580px;
+     width:490px;
+     margin-left:690px;
+     margin-top:-620px;
+     position: relative;
+     background-color: white;
+     box-shadow: 0 2px 4px black;
+    
+ }
+ 
+ .c3{
+     font-weight: 380;
+     margin-left: 80px;
+     margin-top: 30px;
+ }
+ .c4{
+     margin-left: 80px;
+     margin-top:-10px;
+ }
+ .form{
+     
+     font-size: medium;
+   margin-top: -50px;
+     margin-left: 80px;
+     border-bottom-color: black;
+     border-top: 0cap;
+     border-left: 0cap;
+     border-right: 0cap;
+    outline:none;
+     width: 360px;
+     outline-color: white;
+   padding-bottom: 10px;
+     background: transparent;
+     
+ }
+ .full{
+     position: sticky;
+ }
+ .checkbox{
+     margin-top: 2em;
+     margin-left: 80px;
+ }
+ .text{
+     margin-top:-24px;
+     margin-left: 98px;
+ }
+ .text1{
+     cursor: pointer;
+     text-decoration: underline;
+     text-underline-offset: 2px;
+     margin-top:-38px;
+     margin-left: 318px;
+ }
+ .loginbutton{
+     background-color: black;
+     color: white;
+     margin-left: 80px;
+     width:360px;
+     padding-top: 1cap;
+     padding-bottom: 1cap;
+     border-radius: 7px;
+     font-size: 15px;
+     margin-top: 5px;
+     height: 40px;
+ }
+ 
+ 
+ 
+ .gimage{
+     width:35px;
+     margin-bottom:-8px;
+     margin-right: 26px;
+ 
+ }
+ 
+ .ggbutton{
+     background-color: white;
+     color: black;
+     margin-left: 80px;
+     width:360px;
+     
+     padding-bottom: 1cap;
+     border-radius: 7px;
+     margin-top:10px;
+     font-size: 15px;
+     height:40px;
+ }
+ .textg{
+   
+     margin-left: -20px;
+     align-content: center;
+ }
+ .no{
+     margin-left: 120px;
+ }
+ .signup{
+     margin-top: -41px;
+     margin-left: 300px;
+     text-decoration: underline;
+     
+ }
+ .signup:hover{
+     color:pink;
+     cursor: pointer;;
+ }
+ .lastt{
+    margin-top: -40px;
+    margin-left: 300px;
+ }

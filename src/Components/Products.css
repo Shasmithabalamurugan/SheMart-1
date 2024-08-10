@@ -1,0 +1,94 @@
+.products-page {
+  display: flex;
+  flex-wrap: wrap; /* Makes the layout adaptable to screen size */
+  padding: 10px;
+  padding-left: -2px;
+}
+
+.sidebar {
+  width: 100%;
+  max-width: 250px; /* Maximum width for sidebar */
+  background-color: #f7f7f7;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+.sidebar h2 {
+  font-size: 20px;
+  color: #333333; /* Dark Gray */
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  font-weight: 600;
+}
+
+.category-list {
+  list-style: none;
+  padding: 0;
+}
+
+.category-list li {
+  margin-bottom: 15px;
+}
+
+.category-name {
+  cursor: pointer;
+  font-size: 18px;
+  color: #333333; /* Dark Gray */
+  transition: color 0.3s, background-color 0.3s;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.category-name:hover {
+ 
+  background-color: lavenderblush; /* Highlight color on hover */
+}
+
+.sub-category-list {
+  list-style: none;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.sub-category-list li {
+  margin-bottom: 10px;
+}
+
+.sub-category-list li a {
+  text-decoration: none;
+  color: #666666; /* Light Gray */
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.sub-category-list li a:hover {
+  color: pink; /* Highlight color on hover */
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  min-width: 300px; /* Ensures the main content does not shrink too much */
+}
+
+.main-content h1 {
+  font-size: 36px;
+  color: #333333; /* Dark Gray */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.products-grid p {
+  font-size: 18px;
+  color: #666666; /* Light Gray */
+}

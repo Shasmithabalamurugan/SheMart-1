@@ -1,0 +1,86 @@
+/* Productgrid.css */
+.product-grid1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.product-card6 {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+  width: 250px;
+  text-align: center;
+}
+
+.product-card6:hover {
+  transform: scale(1.05);
+}
+
+.product-card6 img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-info3 {
+  padding: 10px;
+}
+
+.product-info3 h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.product-info3 p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.product-info3 p:nth-child(3) {
+  color: #ff6347;
+  font-weight: bold;
+}
+
+.popup {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  z-index: 1000;
+  text-align: center;
+}
+/* Add to Cart Button Styling */
+.product-card6 button {
+  background-color:#007bff; /* Tomato color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.product-card6 button:hover {
+  background-color: #0056b3; /* Darker orange on hover */
+  transform: scale(1.05);
+}
+
+.product-card6 button:focus {
+  outline: 2px solid #ff6347; /* Tomato color focus outline */
+}
+
